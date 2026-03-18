@@ -9,6 +9,5 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-# 故意写语法错误：缺少闭合括号
-result = add(10, 20
+result = add(10, 20)
 print(f"Result: {result}")
